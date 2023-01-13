@@ -1,0 +1,10 @@
+name<-c("Lokesh","charles","viking","parker","tony","ronaldo","neymar","chris")
+age<-c(21,27,34,17,43,32,29,48)
+goals<-c(11,12,14,6,3,8,7,17)
+year<-c(2003,2005,2007,2000,2009,2011,2005,2009)
+View(mean(goals))
+View(median(goals))
+df<-data.frame(name,age,goals,year)
+View(df)
+write.csv(df,"df.csv")
+
